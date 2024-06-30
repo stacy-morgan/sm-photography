@@ -1,0 +1,148 @@
+/* styles.css */
+
+/*
+. = class
+# = id
+  = tag name 
+*/
+
+@import url('fonts.css');
+
+#h1 {
+    cursor: pointer;
+    text-align: left;
+    font-family: 'System San Francisco';
+    font-weight: normal;
+    font-size: 32px;
+    position: absolute;
+    top: 30%;
+    left: 9.4%;
+    border: none;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.imgs img {
+    position: absolute;
+    left: 17vw;
+    top: 0vh;
+    /* original: 6000 x 3368 */
+    width: 83vw;
+    height: 100vh;
+}
+
+#up {
+    position: absolute;
+    top: 15vh;
+    height: 15px;
+    width: 15px;
+}
+
+#down {
+    position: absolute;
+    top: 15vh;
+    height: 15px;
+    width: 15px;
+}
+
+.vertical-bar {
+    position: absolute;
+    top: 0;
+    left: 17vw;
+    height: 100vh;
+    width: 3px;
+    background-color: white;
+    z-index: 2
+}
+
+/* #subtitle {
+    position: absolute;
+    font-family: 'Ubuntu';
+    font-style: 'italic';
+    font-weight: 'bold';
+    font-size: 30px;
+    top: 28%;
+    left: 6%;
+} */
+
+#caption {
+    position: absolute;
+    font-family: 'System San Francisco Ultralight';
+    font-weight: 'regular';
+    font-size: 20px;
+    top: 78vh;
+    left: 32vw;
+}
+
+#date-subtitle {
+    cursor: pointer;
+    text-align: left;
+    font-family: 'System San Francisco Thin';
+    font-style: 'italic';
+    font-weight: 'bold';
+    font-size: 18px;
+    position: absolute;
+    top: 37%;
+    left: 9%;
+    border: none;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
+#date-div {
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    width: 14%;
+
+    border: 0.8px solid white;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 2;
+}
+
+
+#home {
+    position: absolute;
+    top: 1%;
+    font-family: 'System San Francisco';
+    left: 1%;
+
+    border: none;
+    background: transparent;
+    cursor:  pointer;
+}
+
+#picture-title {
+    position: relative;
+    top: 22vh;
+    left: 32.5vw;
+    z-index: 2;
+    font-family: 'Ubuntu';
+    font-style: italic;
+}
+
+#picture-data {
+    position: relative;
+    top: 23vh;
+    left: 84vw;
+    z-index: 2;
+    font-family: 'Ubuntu';
+    border: none;
+    width: 12.5vw;
+    height: 8vh;
+}

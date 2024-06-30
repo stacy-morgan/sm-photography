@@ -1,0 +1,41 @@
+/*gallery-btns.css*/
+
+.dest {
+    position: absolute;
+
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    font-family: 'SourceCodePro';
+    font-weight: bold;
+    font-size: 38px;
+
+    background-color: transparent;
+    text-shadow: 8px 8px 20px black;
+    border: none;
+
+    z-index: 10;
+    color: black;
+}
+
+.dest:hover {
+    z-index: 10;
+}
+
+#jp_ny {
+    top: 60vh;
+    color: #ffffff;
+}
+
+#jp_ny:hover {
+    color: #ffd1dc;
+}
+
+#jp_t {
+    top: 160vh;
+}
+
+#jp_t:hover {
+    color: #9C6DA5;
+}
