@@ -1,1 +1,1 @@
-# sm-photography
+# stacy-morgan.github.io
