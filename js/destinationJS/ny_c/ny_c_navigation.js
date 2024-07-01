@@ -23,7 +23,7 @@ homepageBtn.addEventListener('click', function() {
 });
 
 event1btn.addEventListener('click', function() {
-    window.location.href = "1wany.html";
+    window.location.href = "dest_subpages/ny_c/1wany.html";
 });
 
 event2btn.addEventListener('click', function() {
@@ -79,5 +79,5 @@ event14btn.addEventListener('click', function() {
 });
 
 backBtn.addEventListener('click', function() {
-    window.location.href = "../../gallery.html";
+    window.location.href = "../site/gallery.html";
 });

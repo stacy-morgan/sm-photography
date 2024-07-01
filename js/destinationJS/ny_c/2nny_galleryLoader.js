@@ -120,7 +120,7 @@ b_i10btn.addEventListener('click', function() {
 
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "ny_c.html";
+    window.location.href = "../../../destinations/ny_c.html";
 });
 
 refreshImg();
