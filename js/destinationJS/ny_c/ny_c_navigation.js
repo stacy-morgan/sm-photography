@@ -16,7 +16,7 @@ const event11btn = document.getElementById('event11');
 const event12btn = document.getElementById('event12');
 const event13btn = document.getElementById('event13');
 const event14btn = document.getElementById('event14');
-const backBtn = document.getElementById('backBtn');
+const backBtn = document.getElementById('back');
 
 homepageBtn.addEventListener('click', function() {
     window.location.href = "../../homepage.html";
