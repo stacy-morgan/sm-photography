@@ -27,55 +27,55 @@ event1btn.addEventListener('click', function() {
 });
 
 event2btn.addEventListener('click', function() {
-    window.location.href = "2nny.html";
+    window.location.href = "dest_subpages/ny_c/2nny.html";
 });
 
 event3btn.addEventListener('click', function() {
-    window.location.href = "3esbf68.html";
+    window.location.href = "dest_subpages/ny_c/3esbf68.html";
 });
 
 event4btn.addEventListener('click', function() {
-    window.location.href = "4esbf69.html";
+    window.location.href = "dest_subpages/ny_c/4esbf69.html";
 });
 
 event5btn.addEventListener('click', function() {
-    window.location.href = "5centralpark.html";
+    window.location.href = "dest_subpages/ny_c/5centralpark.html";
 });
 
 event6btn.addEventListener('click', function() {
-    window.location.href = "6thl.html";
+    window.location.href = "dest_subpages/ny_c/6thl.html";
 });
 
 event7btn.addEventListener('click', function() {
-    window.location.href = "7sr.html";
+    window.location.href = "dest_subpages/ny_c/7sr.html";
 });
 
 event8btn.addEventListener('click', function() {
-    window.location.href = "8li.html";
+    window.location.href = "dest_subpages/ny_c/8li.html";
 });
 
 event9btn.addEventListener('click', function() {
-    window.location.href = "9sol.html";
+    window.location.href = "dest_subpages/ny_c/9sol.html";
 });
 
 event10btn.addEventListener('click', function() {
-    window.location.href = "10solp.html";
+    window.location.href = "dest_subpages/ny_c/10solp.html";
 });
 
 event11btn.addEventListener('click', function() {
-    window.location.href = "11sim.html";
+    window.location.href = "dest_subpages/ny_c/11sim.html";
 });
 
 event12btn.addEventListener('click', function() {
-    window.location.href = "12wany2.html";
+    window.location.href = "dest_subpages/ny_c/12wany2.html";
 });
 
 event13btn.addEventListener('click', function() {
-    window.location.href = "13gct.html";
+    window.location.href = "dest_subpages/ny_c/13gct.html";
 });
 
 event14btn.addEventListener('click', function() {
-    window.location.href = "14dc.html";
+    window.location.href = "dest_subpages/ny_c/14dc.html";
 });
 
 backBtn.addEventListener('click', function() {
