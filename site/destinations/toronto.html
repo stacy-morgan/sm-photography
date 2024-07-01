@@ -1,0 +1,86 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/scrollable-buttons.css">
+    <link rel="stylesheet" href="../../../css/styles.css">
+    <link rel="stylesheet" href="../../../css/arrows.css">
+    <style>
+        .scrollable-container {
+            box-sizing: border-box;
+            position: relative;
+            top: 32vh;
+            left: 1vw;
+            width: 23.5vw;
+            height: 64vh;
+            overflow: auto;
+
+            /* border
+            border: 1px solid #ccc; */
+
+        }
+
+
+        .nav-btns button {
+            margin: 5px;
+        }
+
+        .imgs {
+            margin-top: 100px; /* Adjust this value based on your button height */
+        }
+    </style>
+
+    <title> Photography - Gallery</title>
+    
+    </head>
+
+    <body>
+        <button id="home">home</button>
+        <button id="h1">Toronto<br>Gallery</button>
+        <div id="date-div"></div>
+        <div id="date-subtitle">2023-07-27 - 2023-08-01</div>
+    <div class="scrollable-container">
+    
+        <div class = "nav-btns2">
+            <button id="backBtn">&lt;&lt; back</button>
+            <button id="event1">Little Canada</button> <!--July 29, 2023-->
+            <button id="event2">Butterfly Conservatory</button> <!--July 30, 2023-->
+            <button id="event3">Niagara Falls</button> <!--July 30, 2023-->
+        </div>
+        <p></p> <!-- needed to keep the scroll -->
+    </div>
+
+    <div class = "imgs">
+        <img id='i1' src="../../../src/thumbnails/LittleCanada.JPG" alt="Little Canada">
+        <img id='i1' src="../../../src/thumbnails/ButterflyConservatory.JPG" alt="Butterfly Conservatory">
+        <img id='i2' src="../../../src/thumbnails/NiagaraFalls.JPG" alt="Niagara Falls close-up">
+    </div>
+
+    <div class="vertical-bar"></div>
+
+    <div class="arrows">
+        <div id="arrow-l">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="arrow-r">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div id="caption">Caption</div>
+
+    </div>
+
+    </body>
+
+    <script src="../../../js/toronto/toronto_navigation.js"></script>
+    <script src="../../../js/toronto/toronto_galleryLoader.js"></script>
+    <script src="../../../js/logo.js" async></script>
+</html>

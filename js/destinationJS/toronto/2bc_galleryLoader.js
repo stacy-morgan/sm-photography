@@ -160,7 +160,7 @@ b_i16btn.addEventListener('click', function() {
 
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "toronto.html";
+    window.location.href = "../../../destinations/toronto.html";
 });
 
 refreshImg();
