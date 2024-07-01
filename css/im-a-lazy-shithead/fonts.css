@@ -1,0 +1,112 @@
+/*fonts.css*/
+
+/* Comfortaa */
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    src:  url('../fonts/Comfortaa/Comfortaa-Bold.woff2') format('woff2'),
+          url('../fonts/Comfortaa/Comfortaa-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-weight: light;
+    src:  url('../fonts/Comfortaa/Comfortaa-Light.woff2') format('woff2'),
+          url('../fonts/Comfortaa/Comfortaa-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-weight: medium;
+    src:  url('../fonts/Comfortaa/Comfortaa-Medium.woff2') format('woff2'),
+          url('../fonts/Comfortaa/Comfortaa-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src:  url('../fonts/Comfortaa/Comfortaa-Regular.woff2') format('woff2'),
+          url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    font-weight: 'SemiBold';
+    src:  url('../fonts/Comfortaa/Comfortaa-SemiBold.woff2') format('woff2'),
+          url('../fonts/Comfortaa/Comfortaa-SemiBold.woff') format('woff');
+}
+
+/* Lobster */
+
+@font-face {
+    font-family: 'Lobster';
+    src:  url('../fonts/Lobster/Lobster-Regular.woff2') format('woff2'),
+          url('../fonts/Lobster/Lobster-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LobsterTwo';
+    src:  url('../fonts/Lobster/LobsterTwo-Regular.woff2') format('woff2'),
+          url('../fonts/Lobster/LobsterTwo-Regular.woff') format('woff');
+}
+
+/* Ubuntu */
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: 'normal';
+    src:  url('../fonts/Ubuntu/Ubuntu-Regular.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: medium;
+    font-style: italic;
+    src:  url('../fonts/Ubuntu/Ubuntu-MediumItalic.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: medium;
+    src:  url('../fonts/Ubuntu/Ubuntu-Medium.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: light;
+    font-style: italic;
+    src:  url('../fonts/Ubuntu/Ubuntu-LightItalic.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-LightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: light;
+    src:  url('../fonts/Ubuntu/Ubuntu-Light.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    src:  url('../fonts/Ubuntu/Ubuntu-Italic.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: bold;
+    src:  url('../fonts/Ubuntu/Ubuntu-BoldItalic.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    src:  url('../fonts/Ubuntu/Ubuntu-Bold.woff2') format('woff2'),
+          url('../fonts/Ubuntu/Ubuntu-Bold.woff') format('woff');
+}

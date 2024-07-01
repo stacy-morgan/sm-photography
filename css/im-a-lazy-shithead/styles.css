@@ -1,0 +1,180 @@
+/* styles.css */
+
+/*
+. = class
+# = id
+  = tag name 
+*/
+
+@import url('fonts.css');
+
+.nav-btns button {
+    position: relative;
+    display: flex;
+    top: 40vh;
+    text-align: left;
+    left: 5%;
+    width: 9vw;
+    height: 3vh;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    color: black;
+    margin-top: 5vh;
+    padding: 10px;
+    z-index: 2;
+}
+
+.nav-btns button:hover {
+    color: rgb(120, 120, 230);
+}
+
+#h1 {
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Ubuntu';
+    font-weight: normal;
+    font-size: 32px;
+    position: absolute;
+    top: 27.5%;
+    left: 10%;
+    border: none;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imgs img {
+    position: absolute;
+    left: 32vw;
+    top: 25vh;
+    /* original: 6000 x 3368 */
+    width: 750px;
+    height: 421px;
+}
+
+#up {
+    position: absolute;
+    top: 15vh;
+    height: 15px;
+    width: 15px;
+}
+
+#down {
+    position: absolute;
+    top: 15vh;
+    height: 15px;
+    width: 15px;
+}
+
+.vertical-bar {
+    position: absolute;
+    top: 0;
+    left: 17vw;
+    height: 100vh;
+    width: 3px;
+    background-color: black;
+    z-index: 2
+}
+
+/* #subtitle {
+    position: absolute;
+    font-family: 'Ubuntu';
+    font-style: 'italic';
+    font-weight: 'bold';
+    font-size: 30px;
+    top: 28%;
+    left: 6%;
+} */
+
+#caption {
+    position: absolute;
+    font-family: 'Comfortaa';
+    font-weight: medium;
+    font-size: 20px;
+    top: 78vh;
+    left: 32vw;
+}
+
+#date-subtitle {
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Ubuntu';
+    font-style: 'italic';
+    font-weight: 'bold';
+    font-size: 18px;
+    position: absolute;
+    top: 35%;
+    left: 9%;
+    border: none;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 2;
+}
+
+#date-div {
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+    top: 33.5%;
+    left: 9%;
+    width: 10.25%;
+
+    border: 0.8px solid black;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 2;
+}
+
+#about_me { /*Do not remove!! For the About Me section! */
+    position: absolute;
+    left: 17.5vw;
+    top: 25vh;
+    font-size: 20px;
+    color: black;
+    font-family: 'Ubuntu';
+}
+
+#home {
+    position: absolute;
+    top: 1%;
+    font-family: 'Ubuntu';
+    font-weight: 'bold';
+    left: 1%;
+
+    border: none;
+    background: transparent;
+    cursor:  pointer;
+}
+
+#picture-title {
+    position: relative;
+    top: 22vh;
+    left: 32.5vw;
+    z-index: 2;
+    font-family: 'Ubuntu';
+    font-style: italic;
+}
+
+#picture-data {
+    position: relative;
+    top: 23vh;
+    left: 84vw;
+    z-index: 2;
+    font-family: 'Ubuntu';
+    border: none;
+    width: 12.5vw;
+    height: 8vh;
+}

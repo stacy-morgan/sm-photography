@@ -1,0 +1,46 @@
+/* arrows-static.css */
+
+:root {
+    --arrow-width: 1vw;
+    --arrow-height: 2vh;
+}
+
+/* arrow-l */
+#arrow-l {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+#arrow-l span {
+    display: block;
+    width: var(--arrow-width);
+    height: var(--arrow-height);
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    transform: rotate(45deg);
+    margin: -10px;
+}
+
+/* arrow-r */
+#arrow-r {
+    position: absolute;
+    top: 45%;
+    right: 13%;
+    transform: translate(-50%, -50%);
+    transform: rotate(270deg);
+    cursor: pointer;
+}
+
+#arrow-r span {
+    display: block;
+    width: var(--arrow-width);
+    height: var(--arrow-height);
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    transform: rotate(45deg);
+    margin: -10px;
+}
