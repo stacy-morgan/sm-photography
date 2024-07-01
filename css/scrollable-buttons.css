@@ -4,7 +4,7 @@
 . = class
 # = id
   = tag name 
-*/
+*/trgeggegeregregr
 
 @import url('fonts.css');
 
@@ -97,7 +97,7 @@ body {
     left: 1vw;
     width: 16vw;
     height: 62vh;
-    overflow: auto;
+    overflow: hidden;
     border: none;
 
 }
