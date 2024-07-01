@@ -1,10 +1,10 @@
-/* main.css
+/* main.css */
 #homeBtn {
     position: fixed;
     text-align: left;
     color: #000000;
     font-size: 28px;
-    text-shadow: 4px 4px 10px #dcd0ff; /* horizontal, vertical, blur, color 
+    text-shadow: 4px 4px 10px #dcd0ff; /* horizontal, vertical, blur, color */
     user-select: none;
     height: 4vh;
     top: 1vh;
@@ -20,4 +20,4 @@
 
 #homeBtn:hover {
     text-decoration: underline;
-} */
+}

@@ -18,9 +18,9 @@ aboutBtn.addEventListener('click', function() {
 });
 
 jp_ny.addEventListener('click', function() {
-    window.location.href = 'gallery/ny_c.html'
+    window.location.href = '../site/destinations/ny_c.html'
 });
 
 jp_t.addEventListener('click', function() {
-    window.location.href = '../html/gallery/ny_c.html';
+    window.location.href = '../site/destinations/ny_c.html';
 });
