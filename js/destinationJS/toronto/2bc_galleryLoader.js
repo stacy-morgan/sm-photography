@@ -17,7 +17,6 @@ const b_i12btn = document.getElementById("b_i12");
 const b_i13btn = document.getElementById("b_i13");
 const b_i14btn = document.getElementById("b_i14");
 const b_i15btn = document.getElementById("b_i15");
-const b_i16btn = document.getElementById("b_i16");
 
 const picture_title_disp = document.getElementById("picture-title")
 const picture_data_disp = document.getElementById("picture-data")
@@ -43,7 +42,6 @@ const captions = [
     "Butterfly resting on a patch of pretty pink flowers.",
     "Three butterflies!",
     "Resting on a metal bar.",
-    "Butterfly resting on a phone!",
     "Butterfly on my hand!",
     "Probably about to fly away.",
     "Getting ready to fly...",
@@ -55,7 +53,7 @@ const captions = [
     "Tall butterfly!",
     "Black spotted butterfly landed on my arm!"
 ]
-const maxImages = 16;
+const maxImages = 15;
 let imgNum = 0;
 let index = 1;
 
@@ -150,11 +148,6 @@ b_i14btn.addEventListener('click', function() {
 
 b_i15btn.addEventListener('click', function() {
     imgNum = 14;
-    refreshImg();
-});
-
-b_i16btn.addEventListener('click', function() {
-    imgNum = 15;
     refreshImg();
 });
 
