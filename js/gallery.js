@@ -22,5 +22,5 @@ jp_ny.addEventListener('click', function() {
 });
 
 jp_t.addEventListener('click', function() {
-    window.location.href = '../site/destinations/ny_c.html';
+    window.location.href = '../site/destinations/toronto.html';
 });
