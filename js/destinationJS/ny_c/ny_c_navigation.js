@@ -79,5 +79,5 @@ event14btn.addEventListener('click', function() {
 });
 
 backBtn.addEventListener('click', function() {
-    window.location.href = "../site/gallery.html";
+    window.location.href = "../gallery.html";
 });
