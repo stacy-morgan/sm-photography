@@ -8,6 +8,12 @@
 
 @import url('fonts.css');
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
 #h1 {
     cursor: pointer;
     text-align: left;
@@ -15,7 +21,7 @@
     font-weight: normal;
     font-size: 32px;
     position: absolute;
-    top: 30%;
+    top: 29%;
     left: 9.4%;
     border: none;
     background-color: transparent;
@@ -24,10 +30,37 @@
     z-index: 2;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+#date-div {
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 14%;
+
+    border: 0.8px solid white;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 2;
+}
+
+#date-subtitle {
+    cursor: pointer;
+    text-align: left;
+    font-family: 'System San Francisco Thin';
+    font-style: 'italic';
+    font-weight: 'bold';
+    font-size: 18px;
+    position: absolute;
+    top: 39%;
+    left: 9%;
+    border: none;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
 }
 
 .imgs img {
@@ -81,40 +114,6 @@ body {
     top: 78vh;
     left: 32vw;
 }
-
-#date-subtitle {
-    cursor: pointer;
-    text-align: left;
-    font-family: 'System San Francisco Thin';
-    font-style: 'italic';
-    font-weight: 'bold';
-    font-size: 18px;
-    position: absolute;
-    top: 37%;
-    left: 9%;
-    border: none;
-    background-color: transparent;
-    transform: translate(-50%, -50%);
-    color: white;
-    z-index: 2;
-}
-
-#date-div {
-    cursor: pointer;
-    text-align: left;
-    font-size: 18px;
-    position: absolute;
-    top: 34%;
-    left: 10%;
-    width: 14%;
-
-    border: 0.8px solid white;
-    background-color: transparent;
-    transform: translate(-50%, -50%);
-    color: black;
-    z-index: 2;
-}
-
 
 #home {
     position: absolute;
