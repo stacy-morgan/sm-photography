@@ -1,5 +1,7 @@
 /* headerbar.css */
 
+@import url('fonts.css');
+
 #horizontal-bar {
     position: fixed;
     color: #ffffff;
