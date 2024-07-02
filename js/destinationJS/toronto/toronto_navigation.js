@@ -16,7 +16,7 @@ event1btn.addEventListener('click', function() {
 });
 
 event2btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/toronto2bc.html";
+    window.location.href = "dest_subpages/toronto/2bc.html";
 });
 
 event3btn.addEventListener('click', function() {
