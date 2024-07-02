@@ -12,15 +12,15 @@ homepageBtn.addEventListener('click', function() {
 });
 
 event1btn.addEventListener('click', function() {
-    window.location.href = "1lc.html";
+    window.location.href = "dest_subpages/toronto/1lc.html";
 });
 
 event2btn.addEventListener('click', function() {
-    window.location.href = "2bc.html";
+    window.location.href = "dest_subpages/toronto2bc.html";
 });
 
 event3btn.addEventListener('click', function() {
-    window.location.href = "3nf.html";
+    window.location.href = "dest_subpages/toronto/3nf.html";
 });
 
 backBtn.addEventListener('click', function() {
