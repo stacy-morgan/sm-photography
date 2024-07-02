@@ -1,5 +1,4 @@
-const gotoPhotography = document.getElementById('goto-photography-site')
-
-gotoPhotography.addEventListener('click', function() {
+const indexgo = document.getElementById('indexgo')
+indexgo.addEventListener('click', function() {
     window.location.href = 'site/homepage.html';
 });
