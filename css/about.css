@@ -39,15 +39,3 @@
     z-index: 100;
     color: black;
 }
-
-.abt:hover {
-    z-index: 10;
-}
-
-#abt-header:hover {
-    color: #ffd1dc;
-}
-
-#abt-text:hover {
-    color: #9C6DA5;
-}
