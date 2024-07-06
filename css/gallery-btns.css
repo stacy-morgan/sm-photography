@@ -23,8 +23,17 @@
     z-index: 10;
 }
 
-#jp_ny {
+#jp_sd {
     top: 60vh;
+    color: #ffffff;
+}
+
+#jp_sd:hover {
+    color: #ffd1dc;
+}
+
+#jp_ny {
+    top: 160vh;
     color: #ffffff;
 }
 
@@ -33,7 +42,7 @@
 }
 
 #jp_t {
-    top: 160vh;
+    top: 260vh;
 }
 
 #jp_t:hover {
