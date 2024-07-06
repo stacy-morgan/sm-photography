@@ -2,3 +2,5 @@ HOW TO ADD NEW DESTINATION
 
 Add to site/gallery.html homeImgs class (id does not matter)
 Add to css/gallery-btns.css
+Add to js/gallery.js with a getElementById
+Add to js/gallery.js window href to jump to page
