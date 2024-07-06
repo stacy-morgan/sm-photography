@@ -1,5 +1,7 @@
 /*gallery-btns.css*/
-
+:root {
+    --destinations: 3;
+}
 .dest {
     position: absolute;
 
@@ -24,7 +26,7 @@
 }
 
 #jp_sd {
-    top: 60vh;
+    top: calc(var(--destinations) * 100vh - 240vh);
     color: #ffffff;
 }
 
@@ -33,7 +35,7 @@
 }
 
 #jp_ny {
-    top: 160vh;
+    top: calc(var(--destinations) * 100vh - 140vh);
     color: #ffffff;
 }
 
@@ -42,7 +44,8 @@
 }
 
 #jp_t {
-    top: 260vh;
+
+    top: calc(var(--destinations) * 100vh - 40vh);
 }
 
 #jp_t:hover {

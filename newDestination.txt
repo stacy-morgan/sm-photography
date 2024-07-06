@@ -1,0 +1,4 @@
+HOW TO ADD NEW DESTINATION
+
+Add to site/gallery.html homeImgs class (id does not matter)
+Add to css/gallery-btns.css
