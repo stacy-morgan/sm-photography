@@ -1,6 +1,5 @@
 // gallery_imgLoader.js
 
-const captionText = document.getElementById('caption');
 document.addEventListener("DOMContentLoaded", function () {
 
     const captions = [
@@ -43,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 image.style.display = 'none';
             }
         });
-        captionText.textContent = captions[index];
     }
     refreshImg();
 });

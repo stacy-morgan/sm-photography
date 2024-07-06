@@ -1,17 +1,7 @@
 // ny_c_galleryLoader.js
 
-const captionText = document.getElementById('caption');
 document.addEventListener("DOMContentLoaded", function () {
 
-    const captions = [
-        "View from the 69th floor of the Empire State Building",
-        "New York skyline from Liberty Island",
-        "The Statue of Liberty",
-        "Stonewall National Monument",
-        "New York architecture",
-        "Grand Central Terminal",
-        "Chicago River"
-    ]
     const maxImages = 7;
     let imgNum = 1;
     let index = 0;
@@ -47,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 image.style.display = 'none';
             }
         });
-        captionText.textContent = captions[index];
     }
     refreshImg();
 });

@@ -1,7 +1,5 @@
 // 6thl_imgLoader.js
 
-const captionText = document.getElementById('caption');
-
 const b_i1btn = document.getElementById("b_i1");
 const b_i2btn = document.getElementById("b_i2");
 const b_i3btn = document.getElementById("b_i3");
