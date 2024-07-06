@@ -29,16 +29,6 @@ const picture_data = [
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
 
-const captions = [
-    "Beautiful (fake) tree and roots!",
-    "New York streets with towering buildings on both sides.",
-    "Closer view of the New York streets.",
-    "Big New York all-window building!",
-    "Zoomed out view of the street (with Whole Foods!)",
-    "Walking along the High Line.",
-    "Railroad tracks near the High Line!",
-    "Leaving to Hudson Yards."
-]
 const maxImages = 8;
 let imgNum = 0;
 let index = 1;
@@ -57,7 +47,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

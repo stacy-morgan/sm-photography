@@ -24,11 +24,6 @@ const picture_data = [
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
 
-const captions = [
-    "Another big New York building, with a bird!",
-    "Very dark photo, going for a different look.",
-    "Dark view of the two buildings.",
-]
 const maxImages = 3;
 let imgNum = 0;
 let index = 1;
@@ -47,7 +42,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

@@ -71,29 +71,6 @@ const picture_data = [
     "IMG_0647.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 10.2 MB",
 ]
 
-const captions = [
-    "Maid of the Mist boat floating on the water!",
-    "The water is actually a projection!",
-    "Lots of traffic!",
-    "Rural farmland area",
-    "Gathered for some kind of festival?",
-    "Day/night cycle in the exhibit shows the night markets too!",
-    "Nice little pavilion!",
-    "The scale is around 1/87, so a Grande cup would be around 0.18 ounces.",
-    "Big tower! I don't remember what this is. :(",
-    "Big open area with flags!",
-    "Traffic for everyone, even the miniatures.",
-    "Not sure what they're doing to that car...",
-    "Big Toronto sign!",
-    "Definitely a Prius and a Lexus.",
-    "Super pretty miniature skyline!",
-    "Highway is cut off but they still have traffic...",
-    "Big bridge!",
-    "Disconnected bridge that people are still going on?",
-    "Wow, a highway with a big turnpike!",
-    "A big amusement park!",
-]
-
 const maxImages = 20;
 let imgNum = 0;
 let index = 1;
@@ -113,7 +90,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

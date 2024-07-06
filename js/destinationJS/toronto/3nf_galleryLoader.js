@@ -48,17 +48,6 @@ const picture_data = [
     "IMG_0647.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 10.2 MB",
 ]
 
-const captions = [
-    "Beautiful Niagara Falls waterfall!",
-    "Big splash of mist from the falls!",
-    "Bird silhouette flying close to the water!",
-    "There's a cruise going in the water!",
-    "Big close-up of a nearby bird.",
-    "Even birds can look majestic!",
-    "View from hihger up, closer to the falls",
-    "The small mini-waterfall, in Niagara Falls!",
-    "Closer view of the mini-waterfall.",
-]
 const maxImages = 9;
 let imgNum = 0;
 let index = 1;

@@ -1,12 +1,6 @@
-// gallery_imgLoader.js
+// toronto_galleryLoader.js
 
 document.addEventListener("DOMContentLoaded", function () {
-
-    const captions = [
-        "Miniature highway in Little Canada",
-        "Butterfly on my arm!",
-        "Smaller falls in Niagara Falls",
-    ]
     const maxImages = 3;
     let imgNum = 1;
     let index = 0;

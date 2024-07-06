@@ -31,18 +31,6 @@ const picture_data = [
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
 
-const captions = [
-    "Outside the Grand Central Terminal!",
-    "In the main area, with so many people!",
-    "View of the tall New York architecture",
-    "List of train departures.",
-    "Another in the main area, with all the people.",
-    "Looking down at the platform.",
-    "More train departures!",
-    "National Historic Civil Engineering Landmark plaque.",
-    "Looking up in the main area.",
-    "Lighting fixtures closer to one of the entrances."
-]
 const maxImages = 10;
 let imgNum = 0;
 let index = 1;
@@ -61,7 +49,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

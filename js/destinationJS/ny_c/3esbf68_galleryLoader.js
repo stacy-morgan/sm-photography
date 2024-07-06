@@ -23,12 +23,6 @@ const picture_data = [
     "IMG_0401.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8 MB",
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
-
-const captions = [
-    "The foreground has tall buildings, but the far background looks very flat",
-    "Beautiful New York skyline",
-    "View of the tall New York architecture"
-]
 const maxImages = 3;
 let imgNum = 0;
 let index = 1;
@@ -47,7 +41,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

@@ -31,18 +31,6 @@ const picture_data = [
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
 
-const captions = [
-    "Big kart! I want to drive it",
-    "Pikachu never goes in the Poké Ball.",
-    "Old consoles on display! (They took down the charred GameBoy in June)",
-    "Shiny and decorated DS! Kinda tacky.",
-    "The other side of the shelf! (More recent consoles)",
-    "The failed VirtualBoy only sold 770k units (Source: Wikipedia)",
-    "Life-sized Link model from Tears of the Kingdom",
-    "Mario on the flagpole!",
-    "Left wall next to the stairs",
-    "Love the Poké Ball doors, it adds a nice unique touch"
-]
 const maxImages = 10;
 let imgNum = 0;
 let index = 1;
@@ -61,7 +49,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

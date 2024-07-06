@@ -29,16 +29,6 @@ const picture_data = [
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
 
-const captions = [
-    "The 3 buildings in the foreground contrast with the shorter background.",
-    "The buildings are very polygonal for some reason. It's unique!",
-    "Slightly straighter image of the polygonal buildings.",
-    "Central Park seen from the top of the ESB.",
-    "Polygonal buildings with much more balanced exposure.",
-    "Taller, almost clear buildings in front of Central Park.",
-    "Lower exposure photo of Central Park makes it look more overcast.",
-    "New York skyline from the ESB, all the buildings look so small."
-]
 const maxImages = 8;
 let imgNum = 0;
 let index = 1;
@@ -57,7 +47,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

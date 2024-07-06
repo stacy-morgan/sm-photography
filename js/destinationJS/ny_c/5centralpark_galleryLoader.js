@@ -29,16 +29,6 @@ const picture_data = [
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
 
-const captions = [
-    "Slanted trees with the New York architecture in the background.",
-    "Wooden bench alone...",
-    "Central Park gazebo!",
-    "The map shows the true size of Central Park.",
-    "Horse-drawn carriages in the Central Park streets!",
-    "The gnarled tree shows the natural beauty.",
-    "More horses walking by!",
-    "Statue of Samuel Morse."
-]
 const maxImages = 8;
 let imgNum = 0;
 let index = 1;
@@ -57,7 +47,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

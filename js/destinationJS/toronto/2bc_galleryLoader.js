@@ -34,23 +34,6 @@ const picture_data = [
     "IMG_0683.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/200<br>File Size: 4.4 MB",
 ]
 
-const captions = [
-    "I think this is a monarch butterfly, but I don't know.",
-    "Another (probably) monarch butterfly!",
-    "Butterfly resting on a patch of pretty pink flowers.",
-    "Three butterflies!",
-    "Resting on a metal bar.",
-    "Butterfly on my hand!",
-    "Probably about to fly away.",
-    "Getting ready to fly...",
-    "The butterfly flew away :(",
-    "Beautiful (possibly) grayling butterfly?",
-    "Butterfly on the sign!",
-    "Probably drinking some nectar or something...",
-    "Trying to hide behind a leaf, perhaps?",
-    "Tall butterfly!",
-    "Black spotted butterfly landed on my arm!"
-]
 const maxImages = 15;
 let imgNum = 0;
 let index = 1;
@@ -69,7 +52,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }

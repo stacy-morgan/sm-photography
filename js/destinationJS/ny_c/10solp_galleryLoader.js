@@ -25,12 +25,6 @@ const picture_data = [
     "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
 ]
 
-const captions = [
-    "View from above, at the pedestal!",
-    "The statue is right above us!",
-    "View off of the side, with the skyline in the distance.",
-    "Statue seen from the side."
-]
 const maxImages = 3;
 let imgNum = 0;
 let index = 1;
@@ -49,7 +43,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    captionText.textContent = captions[index];
     picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }
