@@ -11,23 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Display the first image on startup
     images[0].style.display = 'block';
 
-    const leftArrowBtn = document.getElementById('arrow-l');
-    const rightArrowBtn = document.getElementById('arrow-r');
-
-    leftArrowBtn.addEventListener('click', function () {
-        if (imgNum > 1 && images[imgNum - 1]) {
-            imgNum--;
-        }
-        refreshImg();
-    });
-
-    rightArrowBtn.addEventListener('click', function () {
-        if (imgNum < maxImages) {
-            imgNum++;
-        }
-        refreshImg();
-    });
-
     function refreshImg() {
         images.forEach((image, i) => {
             if (i + 1 === imgNum) {
