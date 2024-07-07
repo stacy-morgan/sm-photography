@@ -47,28 +47,28 @@ const picture_titles = [
     "Carnival & Hot Air Balloons"
 ]
 
-/*"IMG_000.JPG<br>Aperture: f/0.0<br>Shutter speed: 0/0<br>FileSize: 0 MB",*/
+/* "IMG_000<br>Aperture: f/0.0<br>Shutter speed: 0/0", */
 const picture_data = [
-    "IMG_0379.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/80<br>File Size: 7 MB",
-    "IMG_0380.JPGg<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8.4 MB",
-    "IMG_0392.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 7.7 MB",
-    "IMG_0401.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8 MB",
-    "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
-    "IMG_0412.JPG<br>Aperture: f/4.0<br>Shutter speed: 1/50<br>File Size: 8.9 MB",
-    "IMG_0419.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/15<br>File Size: 7.9 MB",
-    "IMG_0445.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/160<br>File Size: 5.5 MB",
-    "IMG_0446.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 7.2 MB",
-    "IMG_0454.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/80<br>File Size: 7.9 MB",
-    "IMG_0477.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/20<br>File Size: 8.1 MB",
-    "IMG_0498.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/160<br>File Size: 7.2 MB",
-    "IMG_0512.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/160<br>File Size: 8.2 MB",
-    "IMG_0533.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/160<br>File Size: 6.7 MB",
-    "IMG_0537.JPG<br>Aperture: f/4.0<br>Shutter speed: 1/60<br>File Size: 8.7 MB",
-    "IMG_0569.JPG<br>Aperture: f/5.0<br>Shutter speed: 1/100<br>File Size: 7.3 MB",
-    "IMG_0597.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 7.9 MB",
-    "IMG_0610.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/80<br>File Size: 8.3 MB",
-    "IMG_0636.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 6.7 MB",
-    "IMG_0647.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 10.2 MB",
+    "IMG_0379<br>Aperture: f/6.3<br>Shutter speed: 1/80",
+    "IMG_0380g<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0392<br>Aperture: f/6.3<br>Shutter speed: 1/125",
+    "IMG_0401<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0404<br>Aperture: f/6.3<br>Shutter speed: 1/125",
+    "IMG_0412<br>Aperture: f/4.0<br>Shutter speed: 1/50",
+    "IMG_0419<br>Aperture: f/6.3<br>Shutter speed: 1/15",
+    "IMG_0445<br>Aperture: f/6.3<br>Shutter speed: 1/160",
+    "IMG_0446<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0454<br>Aperture: f/3.5<br>Shutter speed: 1/80",
+    "IMG_0477<br>Aperture: f/6.3<br>Shutter speed: 1/20",
+    "IMG_0498<br>Aperture: f/7.1<br>Shutter speed: 1/160",
+    "IMG_0512<br>Aperture: f/7.1<br>Shutter speed: 1/160",
+    "IMG_0533<br>Aperture: f/7.1<br>Shutter speed: 1/160",
+    "IMG_0537<br>Aperture: f/4.0<br>Shutter speed: 1/60",
+    "IMG_0569<br>Aperture: f/5.0<br>Shutter speed: 1/100",
+    "IMG_0597<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0610<br>Aperture: f/6.3<br>Shutter speed: 1/80",
+    "IMG_0636<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0647<br>Aperture: f/3.5<br>Shutter speed: 1/60",
 ]
 
 const maxImages = 20;

@@ -20,13 +20,13 @@ const picture_titles = [
     "Festival",
 ]
 
-/*"IMG_000.JPG<br>Aperture: f/0.0<br>Shutter speed: 0/0<br>FileSize: 0 MB",*/
+/* "IMG_000<br>Aperture: f/0.0<br>Shutter speed: 0/0", */
 const picture_data = [
-    "IMG_0379.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/80<br>File Size: 7 MB",
-    "IMG_0380.JPGg<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8.4 MB",
-    "IMG_0392.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 7.7 MB",
-    "IMG_0401.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8 MB",
-    "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
+    "IMG_0379<br>Aperture: f/6.3<br>Shutter speed: 1/80",
+    "IMG_0380g<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0392<br>Aperture: f/6.3<br>Shutter speed: 1/125",
+    "IMG_0401<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0404<br>Aperture: f/6.3<br>Shutter speed: 1/125",
 ]
 
 const maxImages = 8;

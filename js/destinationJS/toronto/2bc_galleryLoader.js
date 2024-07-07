@@ -25,13 +25,13 @@ const picture_titles = [
     "Yellow Striped Butterfly",
 ]
 
-/*"IMG_000.JPG<br>Aperture: f/0.0<br>Shutter speed: 0/0<br>FileSize: 0 MB",*/
+/* "IMG_000<br>Aperture: f/0.0<br>Shutter speed: 0/0", */
 const picture_data = [
-    "IMG_0664.JPG<br>Aperture: f/8.0<br>Shutter speed: 1/125<br>File Size: 6.3 MB",
-    "IMG_0666.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/100<br>File Size: 6.6 MB",
-    "IMG_0676.JPG<br>Aperture: f/9.0<br>Shutter speed: 1/160<br>File Size: 7.1 MB",
-    "IMG_0677.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/160<br>File Size: 8.4 MB",
-    "IMG_0683.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/200<br>File Size: 4.4 MB",
+    "IMG_0664<br>Aperture: f/8.0<br>Shutter speed: 1/125",
+    "IMG_0666<br>Aperture: f/7.1<br>Shutter speed: 1/100",
+    "IMG_0676<br>Aperture: f/9.0<br>Shutter speed: 1/160",
+    "IMG_0677<br>Aperture: f/7.1<br>Shutter speed: 1/160",
+    "IMG_0683<br>Aperture: f/6.3<br>Shutter speed: 1/200",
 ]
 
 const maxImages = 15;
