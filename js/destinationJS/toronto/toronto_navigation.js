@@ -22,7 +22,3 @@ event2btn.addEventListener('click', function() {
 event3btn.addEventListener('click', function() {
     window.location.href = "dest_subpages/toronto/3nf.html";
 });
-
-backBtn.addEventListener('click', function() {
-    window.location.href = "../gallery.html";
-});

@@ -77,7 +77,3 @@ event13btn.addEventListener('click', function() {
 event14btn.addEventListener('click', function() {
     window.location.href = "dest_subpages/ny_c/14dc.html";
 });
-
-backBtn.addEventListener('click', function() {
-    window.location.href = "../gallery.html";
-});

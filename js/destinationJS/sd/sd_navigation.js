@@ -41,7 +41,3 @@ event6btn.addEventListener('click', function() {
 event7btn.addEventListener('click', function() {
     window.location.href = "dest_subpages/sandiego/7lhc.html";
 });
-
-backBtn.addEventListener('click', function() {
-    window.location.href = "../gallery.html";
-});
