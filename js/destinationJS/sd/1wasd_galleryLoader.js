@@ -1,4 +1,4 @@
-// gallery_imgLoader.js
+// 1was_galleryLoader.js
 
 const b_i1btn = document.getElementById("b_i1");
 const b_i2btn = document.getElementById("b_i2");
