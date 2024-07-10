@@ -79,4 +79,6 @@ backBtn.addEventListener('click', function() {
     window.location.href = "../../../gallery/ny_c.html";
 });
 
-refreshImg();
+document.addEventListener("DOMContentLoaded", function () {
+    refreshImg();
+});

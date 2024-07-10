@@ -23,7 +23,7 @@ const picture_titles = [
 /*"IMG_000<br>Aperture: f/0.0<br>Shutter speed: 0/0<br>FileSize: 0 MB",*/
 const picture_data = [
     "IMG_0379<br>Aperture: f/6.3<br>Shutter speed: 1/80",
-    "IMG_0380g<br>Aperture: f/3.5<br>Shutter speed: 1/60",
+    "IMG_0380<br>Aperture: f/3.5<br>Shutter speed: 1/60",
     "IMG_0392<br>Aperture: f/6.3<br>Shutter speed: 1/125",
     "IMG_0401<br>Aperture: f/3.5<br>Shutter speed: 1/60",
     "IMG_0404<br>Aperture: f/6.3<br>Shutter speed: 1/125",
@@ -96,4 +96,6 @@ backBtn.addEventListener('click', function() {
     window.location.href = "../../../gallery/ny_c.html";
 });
 
-refreshImg();
+document.addEventListener("DOMContentLoaded", function () {
+    refreshImg();
+});
