@@ -19,7 +19,6 @@ const b_i16btn = document.getElementById("b_i16");
 const b_i17btn = document.getElementById("b_i17");
 const b_i18btn = document.getElementById("b_i18");
 const b_i19btn = document.getElementById("b_i19");
-const b_i20btn = document.getElementById("b_i20");
 
 const picture_title_disp = document.getElementById("picture-title")
 const picture_data_disp = document.getElementById("picture-data")
@@ -71,7 +70,7 @@ const picture_data = [
     "IMG_0647.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 10.2 MB",
 ]
 
-const maxImages = 20;
+const maxImages = 19;
 let imgNum = 0;
 let index = 1;
 
@@ -189,14 +188,9 @@ b_i19btn.addEventListener('click', function() {
     refreshImg();
 });
 
-b_i20btn.addEventListener('click', function() {
-    imgNum = 19;
-    refreshImg();
-});
-
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "../../../destinations/sd.html";
+    window.location.href = "../../../gallery/sd.html";
 });
 
 refreshImg();

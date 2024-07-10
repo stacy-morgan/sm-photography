@@ -6,6 +6,7 @@ src_dirname = ''
 subdest_title = ''
 subdest_date = ''
 webpage_title = ''
+dest_subpage_name = ''
 
 file = None
 
@@ -27,7 +28,7 @@ def w(indents, ln):
         file.write(' ')
     file.write(ln)
 
-def wc(idents, ln):
+def wc(indents, ln):
     global file
 
     spaces = indents*4
@@ -61,12 +62,12 @@ def run_autowriter():
     global webpage_title
     global subdest_title
     global subdest_date
-    print("autowriter html filename")
     print(html_filename)
     html_prev = html_filename
     if ".html" not in html_filename:
         html_filename += ".html"
         print(f"(corrected \"{html_prev}\" to \"{html_filename}\")")
+    dest_subpage_name = html_filename.replace('.html', '')
 
     # src_dirname = input("directory name in src:\n(example: San_Diego_2024)\n>")
     # webpage_title = input("webpage title:\n>")
@@ -88,13 +89,13 @@ def run_autowriter():
     wn(1,"<link rel=\"stylesheet\" href=\"../../../../css/oldsite-css/styles.css\">\n")
 
     wn(1,"<link rel=\"stylesheet\" href=\"../../../../css/headerbar.css\">")
-    wn(1,"<link rel=\"stylesheet\" href=\"../../../../css/main.css\">")
+    wn(1,"<link rel=\"stylesheet\" href=\"../../../../css/main.css\">\n")
 
     #Title
-    w(0,"<title>")
+    w(1,"<title>")
     w(0,webpage_title)
-    wn(0,"</title>")
-    wn(1,"\n</head>\n")
+    wn(0,"</title>\n")
+    wn(1,"</head>\n")
 
     #Body
     wn(1,"<body>")
@@ -163,7 +164,7 @@ def run_autowriter():
 
     #Close up the divs
     wn(1, "</div>")
-    wn(1, "<div id=\"vertical_bar\"></div>")
+    wn(1, "<div class=\"vertical-bar\"></div>")
     wn(1, "</div>\n")
     wn(1, "</body>")
 
@@ -174,9 +175,9 @@ def run_autowriter():
     print(f"{src_dirname} -> {js_shortName}")
 
     #0xx_galleryLoader
-    w(1,"<script src=\"../../../../js/deswefwfwefwetinationJS/")
+    w(1,"<script src=\"../../../../js/destinationJS/")
     w(0,js_shortName+str('/'))
-    w(0, destination_name+str('/'))
+    w(0, dest_subpage_name)
     wn(0, "_galleryLoader.js\" async></script>")
 
     #xx_navigation

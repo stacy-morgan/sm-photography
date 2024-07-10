@@ -196,7 +196,7 @@ b_i20btn.addEventListener('click', function() {
 
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "../../../destinations/sd.html";
+    window.location.href = "../../../gallery/sd.html";
 });
 
 refreshImg();

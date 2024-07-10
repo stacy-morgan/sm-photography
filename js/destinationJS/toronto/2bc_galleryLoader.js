@@ -133,7 +133,7 @@ b_i15btn.addEventListener('click', function() {
 
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "../../../destinations/toronto.html";
+    window.location.href = "../../../gallery/toronto.html";
 });
 
 refreshImg();
