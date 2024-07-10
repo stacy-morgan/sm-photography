@@ -120,7 +120,6 @@ def run_autowriter():
     wn(0,"</div>")
 
     wn(2,"<div id=\"picture-title\"></div>")
-    wn(2,"<div id=\"picture-data\">Content loading...</div>\n")
 
     #Scrollable container
     wn(1,"<div class=\"scrollable-container\">")
