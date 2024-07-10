@@ -47,30 +47,6 @@ const picture_titles = [
     "Carnival & Hot Air Balloons"
 ]
 
-/*"IMG_000.JPG<br>Aperture: f/0.0<br>Shutter speed: 0/0<br>FileSize: 0 MB",*/
-const picture_data = [
-    "IMG_0379.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/80<br>File Size: 7 MB",
-    "IMG_0380.JPGg<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8.4 MB",
-    "IMG_0392.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 7.7 MB",
-    "IMG_0401.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8 MB",
-    "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB",
-    "IMG_0412.JPG<br>Aperture: f/4.0<br>Shutter speed: 1/50<br>File Size: 8.9 MB",
-    "IMG_0419.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/15<br>File Size: 7.9 MB",
-    "IMG_0445.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/160<br>File Size: 5.5 MB",
-    "IMG_0446.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 7.2 MB",
-    "IMG_0454.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/80<br>File Size: 7.9 MB",
-    "IMG_0477.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/20<br>File Size: 8.1 MB",
-    "IMG_0498.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/160<br>File Size: 7.2 MB",
-    "IMG_0512.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/160<br>File Size: 8.2 MB",
-    "IMG_0533.JPG<br>Aperture: f/7.1<br>Shutter speed: 1/160<br>File Size: 6.7 MB",
-    "IMG_0537.JPG<br>Aperture: f/4.0<br>Shutter speed: 1/60<br>File Size: 8.7 MB",
-    "IMG_0569.JPG<br>Aperture: f/5.0<br>Shutter speed: 1/100<br>File Size: 7.3 MB",
-    "IMG_0597.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 7.9 MB",
-    "IMG_0610.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/80<br>File Size: 8.3 MB",
-    "IMG_0636.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 6.7 MB",
-    "IMG_0647.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 10.2 MB",
-]
-
 const maxImages = 20;
 let imgNum = 0;
 let index = 1;
@@ -90,7 +66,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }
 

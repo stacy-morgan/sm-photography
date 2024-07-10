@@ -10,7 +10,6 @@ const b_i7btn = document.getElementById("b_i7");
 const b_i8btn = document.getElementById("b_i8");
 
 const picture_title_disp = document.getElementById("picture-title")
-const picture_data_disp = document.getElementById("picture-data")
 
 const picture_titles = [
     "Maid of the Mist",
@@ -18,15 +17,6 @@ const picture_titles = [
     "Traffic Jam with a Cutoff",
     "Mini Farmland",
     "Festival",
-]
-
-/*"IMG_000<br>Aperture: f/0.0<br>Shutter speed: 0/0<br>FileSize: 0 MB",*/
-const picture_data = [
-    "IMG_0379<br>Aperture: f/6.3<br>Shutter speed: 1/80",
-    "IMG_0380g<br>Aperture: f/3.5<br>Shutter speed: 1/60",
-    "IMG_0392<br>Aperture: f/6.3<br>Shutter speed: 1/125",
-    "IMG_0401<br>Aperture: f/3.5<br>Shutter speed: 1/60",
-    "IMG_0404<br>Aperture: f/6.3<br>Shutter speed: 1/125",
 ]
 
 const maxImages = 8;
@@ -47,7 +37,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }
 

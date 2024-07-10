@@ -7,7 +7,6 @@ const b_i4btn = document.getElementById("b_i4");
 const b_i5btn = document.getElementById("b_i5");
 
 const picture_title_disp = document.getElementById("picture-title")
-const picture_data_disp = document.getElementById("picture-data")
 
 const picture_titles = [
     "Maid of the Mist",
@@ -16,15 +15,6 @@ const picture_titles = [
     "Mini Farmland",
     "Festival",
 
-]
-
-/*"IMG_000.JPG<br>Aperture: f/0.0<br>Shutter speed: 0/0<br>FileSize: 0 MB",*/
-const picture_data = [
-    "IMG_0379.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/80<br>File Size: 7 MB",
-    "IMG_0380.JPGg<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8.4 MB",
-    "IMG_0392.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 7.7 MB",
-    "IMG_0401.JPG<br>Aperture: f/3.5<br>Shutter speed: 1/60<br>File Size: 8 MB",
-    "IMG_0404.JPG<br>Aperture: f/6.3<br>Shutter speed: 1/125<br>File Size: 9 MB"
 ]
 
 const maxImages = 5;
@@ -46,7 +36,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }
 
