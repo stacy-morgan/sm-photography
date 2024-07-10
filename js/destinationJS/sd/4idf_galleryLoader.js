@@ -199,4 +199,6 @@ backBtn.addEventListener('click', function() {
     window.location.href = "../../../gallery/sd.html";
 });
 
-refreshImg();
+document.addEventListener("DOMContentLoaded", function () {
+    refreshImg();
+});
