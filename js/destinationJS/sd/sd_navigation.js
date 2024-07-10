@@ -19,25 +19,29 @@ event1btn.addEventListener('click', function() {
 });
 
 event2btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/sandiego/2bp.html";
+    window.location.href = "dest_subpages/sandiego/ussm.html";
 });
 
 event3btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/sandiego/3idf.html";
+    window.location.href = "dest_subpages/sandiego/3bp.html";
 });
 
 event4btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/sandiego/4ftci.html";
+    window.location.href = "dest_subpages/sandiego/4idf.html";
 });
 
 event5btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/sandiego/5vfci.html";
+    window.location.href = "dest_subpages/sandiego/5ftci.html";
 });
 
 event6btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/sandiego/6lhct.html";
+    window.location.href = "dest_subpages/sandiego/6vfci.html";
 });
 
 event7btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/sandiego/7lhc.html";
+    window.location.href = "dest_subpages/sandiego/7lhct.html";
+});
+
+event8btn.addEventListener('click', function() {
+    window.location.href = "dest_subpages/sandiego/8lhc.html";
 });

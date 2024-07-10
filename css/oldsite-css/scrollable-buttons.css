@@ -97,8 +97,8 @@ body {
     top: 35vh;
     left: 1vw;
     width: 16vw;
-    height: 64vh;
+    height: 57vh;
     overflow: auto;
-    border: none;
+    border: white;
 
 }

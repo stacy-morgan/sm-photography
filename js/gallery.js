@@ -21,13 +21,13 @@ aboutBtn.addEventListener('click', function() {
 });
 
 jp_t.addEventListener('click', function() {
-    window.location.href = '../site/destinations/toronto.html';
+    window.location.href = '../site/gallery/toronto.html';
 });
 
 jp_ny.addEventListener('click', function() {
-    window.location.href = '../site/destinations/ny_c.html'
+    window.location.href = '../site/gallery/ny_c.html'
 });
 
 jp_sd.addEventListener('click', function() {
-    window.location.href = '../site/destinations/sd.html'
+    window.location.href = '../site/gallery/sd.html'
 });
