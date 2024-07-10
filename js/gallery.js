@@ -2,7 +2,7 @@ const homeBtn = document.getElementById('homeBtn')
 const galleryBtn = document.getElementById('galleryBtn')
 const aboutBtn = document.getElementById('aboutBtn')
 const contactBtn = document.getElementById('contactBtn')
-
+//Please use updated gallery~!
 //Jump to destinations
 const jp_t = document.getElementById('jp_t');
 const jp_ny = document.getElementById('jp_ny');
