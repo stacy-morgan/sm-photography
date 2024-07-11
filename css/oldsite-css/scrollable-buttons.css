@@ -90,15 +90,18 @@ body {
     margin-top: 100px;
 }
 
-/* from the html file */
 .scrollable-container {
     box-sizing: border-box;
     position: relative;
-    top: 35vh;
+    top: 40vh;
     left: 1vw;
     width: 16vw;
-    height: 57vh;
+    height: 62vh;
     overflow: auto;
-    border: white;
+    border: none;
 
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
