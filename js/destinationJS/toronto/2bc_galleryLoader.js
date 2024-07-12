@@ -17,21 +17,11 @@ const b_i14btn = document.getElementById("b_i14");
 const b_i15btn = document.getElementById("b_i15");
 
 const picture_title_disp = document.getElementById("picture-title")
-const picture_data_disp = document.getElementById("picture-data")
 
 const picture_titles = [
     "Three Butterflies",
     "Butterly & Purple Flowers",
     "Yellow Striped Butterfly",
-]
-
-/* "IMG_000<br>Aperture: f/0.0<br>Shutter speed: 0/0", */
-const picture_data = [
-    "IMG_0664<br>Aperture: f/8.0<br>Shutter speed: 1/125",
-    "IMG_0666<br>Aperture: f/7.1<br>Shutter speed: 1/100",
-    "IMG_0676<br>Aperture: f/9.0<br>Shutter speed: 1/160",
-    "IMG_0677<br>Aperture: f/7.1<br>Shutter speed: 1/160",
-    "IMG_0683<br>Aperture: f/6.3<br>Shutter speed: 1/200",
 ]
 
 const maxImages = 15;
@@ -52,7 +42,6 @@ function refreshImg() {
             image.style.display = 'none';
         }
     });
-    picture_data_disp.innerHTML = picture_data[index];
     picture_title_disp.innerHTML = picture_titles[index]; 
 }
 
@@ -133,7 +122,7 @@ b_i15btn.addEventListener('click', function() {
 
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "../../../destinations/toronto.html";
+    window.location.href = "../../../gallery/toronto.html";
 });
 
 refreshImg();

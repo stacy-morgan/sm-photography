@@ -93,11 +93,12 @@ body {
 .scrollable-container {
     box-sizing: border-box;
     position: relative;
-    top: 37vh;
+    top: 40vh;
     left: 1vw;
     width: 16vw;
     height: 62vh;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     border: none;
 
 }

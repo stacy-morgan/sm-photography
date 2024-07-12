@@ -1,0 +1,6 @@
+destination_name:sandiego
+src_dirname:San_Diego_2024
+webpage_title:San Diego - SM Photography
+subdest_title:Ferry to<br>Coronado Island
+html_filename:5ftci.html
+subdest_date:2024-07-05
