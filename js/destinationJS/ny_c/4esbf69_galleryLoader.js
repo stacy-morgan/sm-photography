@@ -12,11 +12,14 @@ const b_i8btn = document.getElementById("b_i8");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Clouds and Skyline",
+    "Incredibly Over-exposed Skyline",
+    "Incredibly Over-exposed Skyline 2",
+    "Central Park from the Empire State",
+    "Less Over-exposed Skyline",
+    "Two Tall Buildings",
+    "Cloudy Clouds with Central Park",
+    "Big Clouds & New York Skyline"
 ]
 
 const maxImages = 8;

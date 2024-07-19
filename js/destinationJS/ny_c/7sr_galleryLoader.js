@@ -9,11 +9,11 @@ const b_i5btn = document.getElementById("b_i5");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Starbucks Christmas Decorations",
+    "Plants in the Reserve",
+    "Lots of Coffee Stuff",
+    "Coffee and Plants",
+    "Decoration Projection"
 ]
 
 const maxImages = 5;

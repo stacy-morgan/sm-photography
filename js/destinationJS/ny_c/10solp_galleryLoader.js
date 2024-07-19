@@ -8,14 +8,13 @@ const b_i4btn = document.getElementById("b_i4");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "View From the Pedestal",
+    "Looking Up at the Statue",
+    "Skyline From the Statue",
+    "Statue from Below"
 ]
 
-const maxImages = 3;
+const maxImages = 4;
 let imgNum = 0;
 let index = 1;
 

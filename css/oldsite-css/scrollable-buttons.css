@@ -98,7 +98,7 @@ body {
     width: 16vw;
     height: 57vh;
     overflow: scroll;
-    border: 3px solid white;
+    border: none;
 
 }
 

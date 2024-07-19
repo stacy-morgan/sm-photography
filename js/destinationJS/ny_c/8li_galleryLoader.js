@@ -10,11 +10,12 @@ const b_i6btn = document.getElementById("b_i6");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Liberty Island Skyline",
+    "Liberty Island Skyline 2",
+    "Ellis Island National Immigrant Museum",
+    "Liberty Island Skyline 3",
+    "Seagull",
+    "Seagull (Zoomed In)"
 ]
 
 const maxImages = 6;

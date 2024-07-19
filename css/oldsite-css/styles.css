@@ -109,6 +109,22 @@ body {
     color: white;
 }
 
+#date-div {
+    cursor: pointer;
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+    top: 37.5%;
+    left: 9%;
+    width: 10.25%;
+
+    border: 0.8px solid white;
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+}
+
 #date-subtitle {
     cursor: pointer;
     text-align: left;
@@ -117,25 +133,9 @@ body {
     font-weight: 'bold';
     font-size: 18px;
     position: absolute;
-    top: 39%;
+    top: 39.75%;
     left: 9%;
     border: none;
-    background-color: transparent;
-    transform: translate(-50%, -50%);
-    color: white;
-    z-index: 2;
-}
-
-#date-div {
-    cursor: pointer;
-    text-align: left;
-    font-size: 18px;
-    position: absolute;
-    top: 35.75%;
-    left: 9%;
-    width: 10.25%;
-
-    border: 0.8px solid white;
     background-color: transparent;
     transform: translate(-50%, -50%);
     color: white;

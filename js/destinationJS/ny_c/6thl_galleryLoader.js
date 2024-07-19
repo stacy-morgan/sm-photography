@@ -12,10 +12,10 @@ const b_i8btn = document.getElementById("b_i8");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
+    "Massive Fake Tree",
+    "Looking Down the Street",
+    "Looking Down the Street 2",
+    "Tall Skyscraper",
     "Festival",
 ]
 

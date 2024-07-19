@@ -13,11 +13,13 @@ const b_i9btn = document.getElementById("b_i9");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Chicago River",
+    "Bridge on the Chicago River",
+    "Tall Chicago Buildings",
+    "Chicago Sign with Tall Buildings",
+    "Parking Wheel",
+    "Tall Chicago Buildings 2",
+    "AMA Plaza"
 ]
 
 const maxImages = 9;

@@ -7,11 +7,9 @@ const b_i3btn = document.getElementById("b_i3");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Tall Building",
+    "Underexposed Brick Building",
+    "Long Building"
 ]
 
 const maxImages = 3;

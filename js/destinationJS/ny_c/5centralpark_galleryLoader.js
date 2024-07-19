@@ -7,19 +7,20 @@ const b_i4btn = document.getElementById("b_i4");
 const b_i5btn = document.getElementById("b_i5");
 const b_i6btn = document.getElementById("b_i6");
 const b_i7btn = document.getElementById("b_i7");
-const b_i8btn = document.getElementById("b_i8");
 
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Trees in Central Park",
+    "Wooden Bench",
+    "Wooden Gazebo",
+    "Map of Central Park",
+    "Horse-Drawn Carriage",
+    "Shaded Walkway",
+    "Morse"
 ]
 
-const maxImages = 8;
+const maxImages = 7;
 let imgNum = 0;
 let index = 1;
 
@@ -72,11 +73,6 @@ b_i6btn.addEventListener('click', function() {
 
 b_i7btn.addEventListener('click', function() {
     imgNum = 6;
-    refreshImg();
-});
-
-b_i8btn.addEventListener('click', function() {
-    imgNum = 7;
     refreshImg();
 });
 

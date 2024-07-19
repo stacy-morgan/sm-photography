@@ -14,14 +14,18 @@ const b_i10btn = document.getElementById("b_i10");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Mario Kart",
+    "Console Shelf Front",
+    "Nintendogs DS",
+    "Console Shelf Back",
+    "Virtual Boy",
+    "Link",
+    "Flagpole",
+    "Happy Holidays from Nintendo",
+    "PokeBall Doors"
 ]
 
-const maxImages = 10;
+const maxImages = 9;
 let imgNum = 0;
 let index = 1;
 
@@ -84,11 +88,6 @@ b_i8btn.addEventListener('click', function() {
 
 b_i9btn.addEventListener('click', function() {
     imgNum = 8;
-    refreshImg();
-});
-
-b_i10btn.addEventListener('click', function() {
-    imgNum = 9;
     refreshImg();
 });
 

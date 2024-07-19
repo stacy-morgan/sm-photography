@@ -14,11 +14,15 @@ const b_i10btn = document.getElementById("b_i10");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Grand Central Station",
+    "Inside the Terminal",
+    "Departures",
+    "Inside the Terminal 2",
+    "Overexposed Train Platform",
+    "Departures 2",
+    "Civil Engineering Landmark Plaque",
+    "Inside the Terminal 3",
+    "Chandeliers in the Terminal"
 ]
 
 const maxImages = 10;
