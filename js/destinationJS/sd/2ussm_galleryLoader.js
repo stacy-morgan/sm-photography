@@ -18,34 +18,31 @@ const b_i15btn = document.getElementById("b_i15");
 const b_i16btn = document.getElementById("b_i16");
 const b_i17btn = document.getElementById("b_i17");
 const b_i18btn = document.getElementById("b_i18");
-const b_i19btn = document.getElementById("b_i19");
 
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
-    "Night Markets",
-    "Gazebo",
-    "Miniature Starbucks!",
-    "Possible Clock Tower",
-    "Modern Gathering Area",
-    "Highway Traffic",
-    "Parked Car",
-    "Toronto Sign",
-    "Highway & Tow Truck",
-    "Skyline",
-    "Cut Off Highway",
-    "Bridge and Sky",
-    "Big Bridge & Gathering",
-    "Empty Turnpike",
-    "Carnival & Hot Air Balloons"
+    "First View of the USS Midway",
+    "Decks on the Ship",
+    "View from the Side",
+    "SBD Dauntless",
+    "The Engine that Won the War",
+    "USS Midway Joins the Fleet",
+    "Dining Area",
+    "Typewriter with (Stolen?) Keys",
+    "Incredibly Low Prices",
+    "150-Dollar Rolex",
+    "Man in the Brig",
+    "Typewriter With Keys",
+    "S-3 Viking",
+    "View from the Deck",
+    "View from Further Down the Deck",
+    "USS Arizona: Hull Fragment",
+    "Flags on the USS Midway",
+    "View from Another Angle"
 ]
 
-const maxImages = 19;
+const maxImages = 18;
 let imgNum = 0;
 let index = 1;
 
@@ -153,11 +150,6 @@ b_i17btn.addEventListener('click', function() {
 
 b_i18btn.addEventListener('click', function() {
     imgNum = 17;
-    refreshImg();
-});
-
-b_i19btn.addEventListener('click', function() {
-    imgNum = 18;
     refreshImg();
 });
 

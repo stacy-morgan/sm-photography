@@ -13,14 +13,8 @@ const picture_title_disp = document.getElementById("picture-title")
 const picture_data_disp = document.getElementById("picture-data")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
-    "Night Markets",
-    "Gazebo",
-    "Miniature Starbucks!"
+    "Pretty Buildings from the Ferry",
+    "Distant San Diego Bridge",
 ]
 
 const maxImages = 8;

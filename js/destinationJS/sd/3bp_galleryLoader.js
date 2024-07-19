@@ -19,35 +19,32 @@ const b_i16btn = document.getElementById("b_i16");
 const b_i17btn = document.getElementById("b_i17");
 const b_i18btn = document.getElementById("b_i18");
 const b_i19btn = document.getElementById("b_i19");
-const b_i20btn = document.getElementById("b_i20");
 
 const picture_title_disp = document.getElementById("picture-title")
-const picture_data_disp = document.getElementById("picture-data")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
-    "Night Markets",
-    "Gazebo",
-    "Miniature Starbucks!",
-    "Possible Clock Tower",
-    "Modern Gathering Area",
-    "Highway Traffic",
-    "Parked Car",
-    "Toronto Sign",
-    "Highway & Tow Truck",
-    "Skyline",
-    "Cut Off Highway",
-    "Bridge and Sky",
-    "Big Bridge & Gathering",
-    "Empty Turnpike",
-    "Carnival & Hot Air Balloons"
+    "Fountain",
+    "Bright Flower",
+    "Underexposed Flower",
+    "Green Garden from Above",
+    "Overexposed Circle of Flowers",
+    "Field of Plant Things",
+    "Group of Round Cacti",
+    "Overexposed Rose",
+    "Unfocused Rose",
+    "Group of Flowers",
+    "Flat Cactus",
+    "Mini Tree",
+    "Group of Stacked Stones",
+    "Group of Stacked Stones 2",
+    "Colorful Boulder",
+    "Lots of Cacti Circles",
+    "Green and Black Borders",
+    "Extravagent Bark Pattern",
+    "Plethora of Lilac Flowers"
 ]
 
-const maxImages = 20;
+const maxImages = 19;
 let imgNum = 0;
 let index = 1;
 
@@ -160,11 +157,6 @@ b_i18btn.addEventListener('click', function() {
 
 b_i19btn.addEventListener('click', function() {
     imgNum = 18;
-    refreshImg();
-});
-
-b_i20btn.addEventListener('click', function() {
-    imgNum = 19;
     refreshImg();
 });
 

@@ -11,13 +11,13 @@ const b_i7btn = document.getElementById("b_i7");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
-    "Night Markets",
-    "Gazebo"
+    "Pink Firework Explosion",
+    "Proper Darkness Firework",
+    "Two Pink Fireworks",
+    "One Pink Firework",
+    "Smaller Explosion",
+    "Two Lower Fireworks",
+    "Orange and Blue Mini Fireworks"
 ]
 
 const maxImages = 7;
