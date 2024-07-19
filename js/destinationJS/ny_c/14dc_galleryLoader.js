@@ -9,6 +9,12 @@ const b_i6btn = document.getElementById("b_i6");
 const b_i7btn = document.getElementById("b_i7");
 const b_i8btn = document.getElementById("b_i8");
 const b_i9btn = document.getElementById("b_i9");
+const b_i10btn = document.getElementById("b_i10");
+const b_i11btn = document.getElementById("b_i11");
+const b_i12btn = document.getElementById("b_i12");
+const b_i13btn = document.getElementById("b_i13");
+const b_i14btn = document.getElementById("b_i14");
+const b_i15btn = document.getElementById("b_i15");
 
 const picture_title_disp = document.getElementById("picture-title")
 
@@ -19,10 +25,18 @@ const picture_titles = [
     "Chicago Sign with Tall Buildings",
     "Parking Wheel",
     "Tall Chicago Buildings 2",
-    "AMA Plaza"
+    "AMA Plaza",
+    "Gentlemen Statues",
+    "Two Birds",
+    "NBC Building",
+    "Lou Malnati's",
+    "Chicago Tribune",
+    "Tribune Tower Private Residence",
+    "Starbucks Reserve Chicago",
+    "Tall Chicago Buildings 3"
 ]
 
-const maxImages = 9;
+const maxImages = 15;
 let imgNum = 0;
 let index = 1;
 
@@ -85,6 +99,36 @@ b_i8btn.addEventListener('click', function() {
 
 b_i9btn.addEventListener('click', function() {
     imgNum = 8;
+    refreshImg();
+});
+
+b_i10btn.addEventListener('click', function() {
+    imgNum = 9;
+    refreshImg();
+});
+
+b_i11btn.addEventListener('click', function() {
+    imgNum = 10;
+    refreshImg();
+});
+
+b_i12btn.addEventListener('click', function() {
+    imgNum = 11;
+    refreshImg();
+});
+
+b_i13btn.addEventListener('click', function() {
+    imgNum = 12;
+    refreshImg();
+});
+
+b_i14btn.addEventListener('click', function() {
+    imgNum = 13;
+    refreshImg();
+});
+
+b_i15btn.addEventListener('click', function() {
+    imgNum = 14;
     refreshImg();
 });
 
