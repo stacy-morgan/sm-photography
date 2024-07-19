@@ -163,7 +163,7 @@ b_i19btn.addEventListener('click', function() {
 
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "../../../gallery/sd.html";
+    window.location.href = "../../sd.html";
 });
 
 console.log("Execute");

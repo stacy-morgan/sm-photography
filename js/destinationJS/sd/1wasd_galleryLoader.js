@@ -9,11 +9,11 @@ const b_i5btn = document.getElementById("b_i5");
 const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland",
-    "Festival",
+    "Tall San Diego Building",
+    "White Flower 1",
+    "White Flower 2",
+    "Tall San Diego Building 2",
+    "Combination Chipotle & Chase",
 
 ]
 
@@ -65,7 +65,7 @@ b_i5btn.addEventListener('click', function() {
 
 const backBtn = document.getElementById('back');
 backBtn.addEventListener('click', function() {
-    window.location.href = "../../../destinations/sd.html";
+    window.location.href = "../../sd.html";
 });
 
 console.log("Execute");
