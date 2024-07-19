@@ -96,9 +96,9 @@ body {
     top: 40vh;
     left: 1vw;
     width: 16vw;
-    height: 62vh;
-    overflow: auto;
-    border: none;
+    height: 57vh;
+    overflow: scroll;
+    border: 3px solid white;
 
 }
 

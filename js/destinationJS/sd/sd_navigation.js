@@ -19,7 +19,7 @@ event1btn.addEventListener('click', function() {
 });
 
 event2btn.addEventListener('click', function() {
-    window.location.href = "dest_subpages/sandiego/ussm.html";
+    window.location.href = "dest_subpages/sandiego/2ussm.html";
 });
 
 event3btn.addEventListener('click', function() {

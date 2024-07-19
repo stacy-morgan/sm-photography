@@ -22,6 +22,18 @@ const picture_titles = [
     "Three Butterflies",
     "Butterly & Purple Flowers",
     "Yellow Striped Butterfly",
+    "Three Orange Butterflies",
+    "Butterfly on the Railing",
+    "Butterfly on my Hand",
+    "Butterfly on my Hand 2",
+    "Ready to Fly",
+    "Flying Away",
+    "Spotted Butterfly",
+    "Please Follow the Path",
+    "Butterfly Close-Up",
+    "Obscured by the Leaf",
+    "Spotted Butterfly 2",
+    "Butterfly on my Jacket"
 ]
 
 const maxImages = 15;

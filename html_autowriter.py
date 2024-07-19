@@ -1,4 +1,4 @@
-#html-autowriter.py
+#html_autowriter.py
 
 destination_name = ''
 html_filename = ''
@@ -202,25 +202,25 @@ if input_mode == 'a':
                 destination_name = lnData[1]
                 destination_name = destination_name.replace('\n','')
 
+            if lnData[0] == "html_filename":
+                html_filename = lnData[1]
+                html_filename = html_filename.replace('\n','')
+
             if lnData[0] == "src_dirname":
                 src_dirname = lnData[1]
                 src_dirname = src_dirname.replace('\n','')
 
-            if lnData[0] == "webpage_title":
-                webpage_title = lnData[1]
-                webpage_title = webpage_title.replace('\n','')
+            if lnData[0] == "subdest_date":
+                subdest_date = lnData[1]
+                subdest_date = subdest_date.replace('\n','')
 
             if lnData[0] == "subdest_title":
                 subdest_title = lnData[1]
                 subdest_title = subdest_title.replace('\n','')
 
-            if lnData[0] == "subdest_date":
-                subdest_date = lnData[1]
-                subdest_date = subdest_date.replace('\n','')
-            
-            if lnData[0] == "html_filename":
-                html_filename = lnData[1]
-                html_filename = html_filename.replace('\n','')
+            if lnData[0] == "webpage_title":
+                webpage_title = lnData[1]
+                webpage_title = webpage_title.replace('\n','')
 
             if destination_name != '' and src_dirname != '':
                 if webpage_title != '' and subdest_title != '':
@@ -236,3 +236,20 @@ else:
     subdest_date = input("sub-destination date:\n(example: \"San<br>Diego,<br>California\")\n>")
     destination_name = input("destination name:\n(example: sandiego)\n>")
     html_filename = input("html filename:\n(example: 1wany)\n>")
+
+def autorun(import_list):
+    global destination_name
+    global html_filename
+    global src_dirname
+    global subdest_date
+    global subdest_title
+    global webpage_title
+
+    destination_name = import_list[0]
+    html_filename = import_list[1]
+    src_dirname = import_list[2]
+    subdest_date = import_list[3]
+    subdest_title = import_list[4]
+    webpage_title = import_list[5]
+    run_autowriter()
+

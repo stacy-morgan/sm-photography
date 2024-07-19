@@ -97,8 +97,7 @@ body {
     left: 1vw;
     width: 16vw;
     height: 62vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    border: none;
+    overflow: auto;
+    border: 3px solid white;
 
 }
