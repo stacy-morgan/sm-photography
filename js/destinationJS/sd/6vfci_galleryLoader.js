@@ -5,18 +5,22 @@ const b_i2btn = document.getElementById("b_i2");
 const b_i3btn = document.getElementById("b_i3");
 const b_i4btn = document.getElementById("b_i4");
 const b_i5btn = document.getElementById("b_i5");
+const b_i6btn = document.getElementById("b_i6");
+const b_i7btn = document.getElementById("b_i7");
 
 const picture_title_disp = document.getElementById("picture-title")
-const picture_data_disp = document.getElementById("picture-data")
 
 const picture_titles = [
-    "Maid of the Mist",
-    "Waterfall of Light",
-    "Traffic Jam with a Cutoff",
-    "Mini Farmland"
+    "San Diego from Coronado Island",
+    "San Diego from Coronado Island 2",
+    "Birthplace of Naval Aviation Plaque",
+    "Coronado Island Beach Rocks",
+    "White Beachside Building",
+    "White Beachside Building 2",
+    "White Beachside Building with Palm Trees",
 ]
 
-const maxImages = 5;
+const maxImages = 7;
 let imgNum = 0;
 let index = 1;
 
@@ -59,6 +63,16 @@ b_i4btn.addEventListener('click', function() {
 
 b_i5btn.addEventListener('click', function() {
     imgNum = 4;
+    refreshImg();
+});
+
+b_i6btn.addEventListener('click', function() {
+    imgNum = 5;
+    refreshImg();
+});
+
+b_i7btn.addEventListener('click', function() {
+    imgNum = 6;
     refreshImg();
 });
 

@@ -13,8 +13,14 @@ const picture_title_disp = document.getElementById("picture-title")
 const picture_data_disp = document.getElementById("picture-data")
 
 const picture_titles = [
-    "Pretty Buildings from the Ferry",
+    "USS Midway on the Water",
+    "Distant Buildings",
+    "Midway with Tall Buildings",
+    "View of the Dock and Buildings",
+    "Side View",
+    "\"Sydney Opera House\"",
     "Distant San Diego Bridge",
+    "Landing at Coronado Island"
 ]
 
 const maxImages = 8;

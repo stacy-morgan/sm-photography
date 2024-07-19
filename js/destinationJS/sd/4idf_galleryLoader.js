@@ -12,14 +12,13 @@ const picture_title_disp = document.getElementById("picture-title")
 
 const picture_titles = [
     "Pink Firework Explosion",
-    "Proper Darkness Firework",
     "Two Pink Fireworks",
     "One Pink Firework",
-    "Smaller Explosion",
-    "Two Lower Fireworks",
-    "Orange and Blue Mini Fireworks"
+    "(Proper) Dual Firework Explosions",
+    "Proper Smaller Firework",
+    "Proper Orange and Blue Mini Fireworks",
+    "Proper Smaller Explosion"
 ]
-
 const maxImages = 7;
 let imgNum = 0;
 let index = 1;
