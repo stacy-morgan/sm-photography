@@ -6,7 +6,7 @@
   = tag name 
 */
 
-@import url('fonts.css');
+@import url('../fonts.css');
 
 body {
     background-color: blue;

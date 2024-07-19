@@ -56,7 +56,6 @@ const images = document.querySelectorAll('.imgs img');
 images[0].style.display = 'block';
 
 function refreshImg() {
-    console.log(picture_data_disp);
     images.forEach((image, i) => {
         if (i == imgNum) {
             image.style.display = 'block';

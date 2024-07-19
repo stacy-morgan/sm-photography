@@ -98,6 +98,6 @@ body {
     width: 16vw;
     height: 62vh;
     overflow: auto;
-    border: 3px solid white;
+    border: none;
 
 }
