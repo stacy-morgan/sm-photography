@@ -137,4 +137,6 @@ backBtn.addEventListener('click', function() {
     window.location.href = "../../../gallery/toronto.html";
 });
 
+console.log("Execute");
+imgNum = 0;
 refreshImg();

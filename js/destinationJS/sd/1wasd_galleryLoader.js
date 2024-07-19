@@ -27,7 +27,6 @@ const images = document.querySelectorAll('.imgs img');
 images[0].style.display = 'block';
 
 function refreshImg() {
-    console.log(picture_data_disp);
     images.forEach((image, i) => {
         if (i == imgNum) {
             image.style.display = 'block';
@@ -69,6 +68,6 @@ backBtn.addEventListener('click', function() {
     window.location.href = "../../../destinations/sd.html";
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    refreshImg();
-});
+console.log("Execute");
+imgNum = 0;
+refreshImg();

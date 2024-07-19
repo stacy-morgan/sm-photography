@@ -73,6 +73,6 @@ backBtn.addEventListener('click', function() {
     window.location.href = "../../../gallery/ny_c.html";
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    refreshImg();
-});
+console.log("Execute");
+imgNum = 0;
+refreshImg();
