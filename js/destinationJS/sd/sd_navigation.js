@@ -8,7 +8,7 @@ const event4btn = document.getElementById('event4');
 const event5btn = document.getElementById('event5');
 const event6btn = document.getElementById('event6');
 const event7btn = document.getElementById('event7');
-const backBtn = document.getElementById('backBtn');
+const event8btn = document.getElementById('event8');
 
 homepageBtn.addEventListener('click', function() {
     window.location.href = "../../homepage.html";
