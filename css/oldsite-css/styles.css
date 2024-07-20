@@ -56,13 +56,25 @@ body {
     padding: 0;
 }
 
+#picture-title {
+    position: relative;
+    top: 19.25vh;
+    left: 25vw;
+    font-size: 25px;
+    z-index: 2;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    color: white;
+}
+
 .imgs img {
     position: absolute;
-    left: 32vw;
-    top: 25vh;
+    left: 25vw;
+    top: 22.5vh;
     /* original: 6000 x 3368 */
-    width: 750px;
-    height: 421px;
+    width: 1200px;
+    height: 673.6px;
+    /* 750x421*/
 }
 
 #up {
@@ -161,16 +173,6 @@ body {
     border: none;
     background: transparent;
     cursor:  pointer;
-    color: white;
-}
-
-#picture-title {
-    position: relative;
-    top: 22vh;
-    left: 32.5vw;
-    z-index: 2;
-    font-family: 'Ubuntu';
-    font-style: italic;
     color: white;
 }
 

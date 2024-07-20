@@ -1,4 +1,4 @@
-// 1was_galleryLoader.js
+// 1wasd_galleryLoader.js
 
 const b_i1btn = document.getElementById("b_i1");
 const b_i2btn = document.getElementById("b_i2");
